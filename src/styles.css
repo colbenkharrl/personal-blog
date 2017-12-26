@@ -1,1 +1,93 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+  background: #eeeeee;
+  margin: 0px;
+  cursor: default;
+}
+
+markdown img {
+  width:100%;
+}
+
+
+.body-container {
+  margin: 0px 20px;
+  padding: 20px 0px;
+}
+
+.body-container .body-container {
+  margin: 0px;
+  padding: 0px;
+}
+
+.card {
+  margin: 8px auto;
+  max-width: 1080px;
+  background-color: #fcfaf9;
+}
+
+.basic-text {
+  font-size: 18px;
+  font-family: 'Merriweather Sans', 'Roboto';
+}
+
+.dark-section p,
+.dark-section h1 {
+  font-family: 'Merriweather Sans', 'Roboto';
+  color: #fcfaf9;
+}
+
+.light-section p,
+.light-section h1 {
+  font-family: 'Merriweather Sans', 'Roboto';
+  color: #152c43;
+}
+
+#about-container {
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.content-container {
+  width: 95%;
+  max-width: 1080px;
+  overflow: auto;
+  padding: 60px 0px;
+  margin: auto;
+}
+
+.section-title {
+  width: 100%;
+  float: left;
+}
+
+.section-title-text {
+  font-size: 32px;
+}
+
+.dark-section .section-title-text:after {
+  border: 2px solid #fcfaf9;
+}
+
+.light-section .section-title-text:after {
+  border: 2px solid #152c43;
+}
+
+.section-title-text:after {
+    content: ' ';
+    display: block;
+    width: 35%;
+    margin: 10px 0;
+}
+
+.section-text {
+  width: 100%;
+  float: left;
+}
+
+.title-icon {
+  padding-right: 20px;
+}
