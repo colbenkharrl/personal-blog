@@ -8,7 +8,7 @@ import { AuthService } from './auth.service';
 @Injectable()
 export class WebService {
 
-  BASE_URL = 'http://localhost:10101/api';
+  BASE_URL = 'https://mattkharrl-api.herokuapp.com/api';
 
   private postStore = [];
   private categoryStore = [];

@@ -5,7 +5,7 @@ import { Router } from '@angular/router';
 @Injectable()
 export class AuthService {
 
-  BASE_URL = 'http://localhost:10101/auth';
+  BASE_URL = 'https://mattkharrl-api.herokuapp.com/auth';
   NAME_KEY = 'name';
   TOKEN_KEY = 'token';
 
